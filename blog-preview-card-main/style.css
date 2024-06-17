@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Figtree-bold';
+  src: url(assets/fonts/static/Figtree-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree-ExtraBold';
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree-VariableFont';
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.box01 {
+  box-shadow: black 8px  8px ;
+  border: 1px solid black;
+  background-color: white;
+  height: 522px;
+  width: 384px;
+  padding: 24px;
+  border-radius: 20px;
+  
+}
+
+.box02 {
+  
+  border-radius: 10px;
+  width: 336px;
+  height: 194px;
+  margin: 24px 0 24px 0;
+  
+}
+.P01 {
+  font-family: 'Figtree-ExtraBold', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 4px;
+  width: 82px;
+  height: 29px;
+  
+  background: hsl(47, 88%, 63%);
+}
+
+.P02 {
+  margin-top: 12px;
+  font-family: 'Figtree-bold';
+  font-size: 14px;
+}
+
+.H01 {
+  font-family:'Figtree-ExtraBold', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  margin: 12px 0 12px 0;
+}
+
+.P03 {
+  font-family: 'Figtree-VariableFont';
+  font-weight: bold;
+  color: rgb(153, 151, 151);
+}
+
+.P04 {
+  font-family:'Figtree-ExtraBold', Arial, Helvetica, sans-serif;
+  
+}
+
+
+img {
+border-radius: 10px;
+width: 336px;
+height: 200px;
+margin: auto;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
